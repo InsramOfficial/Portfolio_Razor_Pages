@@ -1,0 +1,48 @@
+﻿@page
+@model Iportfolio.Pages.myadmin.AddExperienceModel
+@{
+}
+<div class="container">
+    <form method="post">
+        <div class="row justify-content-center">
+            <h2> ADD EXPERIENCE</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+                <label class="form-label">JobTitle </label>
+                <input class="form-control" asp-for="experience.JobTitle" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+                <label class="form-label">Location </label>
+                <input class="form-control" asp-for="experience.Location" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+                <label class="form-label">StartYear </label>
+                <input class="form-control" asp-for="experience.StartYear" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+                <label class="form-label">EndYear </label>
+                <input class="form-control" asp-for="experience.EndYear" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+                <label class="form-label">Description</label>
+                <input class="form-control" asp-for="experience.Desc" />
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-6">
+
+                <input type="submit" value="Add Experience" class="btn btn-primary" />
+            </div>
+        </div>
+
+    </form>
+</div>
